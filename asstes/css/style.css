@@ -1,0 +1,63 @@
+.btn-primary {
+    color: #fff;
+    background-color: #6A60DD;
+    border-color: #6A60DD;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #7469f1;
+    border-color: #7469f1;
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    color: #fff;
+    background-color: #6A60DD;
+    border-color: #6A60DD;
+    box-shadow: 0 0 0 .25rem rgba(49, 132, 253, .5)
+}
+
+.btn-check:active+.btn-primary,
+.btn-check:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #6A60DD;
+    border-color: #6A60DD
+}
+
+.btn-check:active+.btn-primary:focus,
+.btn-check:checked+.btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .25rem rgba(49, 132, 253, .5)
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #6A60DD;
+    border-color: #6A60DD
+}
+
+.custom_button1 {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 11rem;
+    cursor: pointer;
+}
+
+.custom_button1 .btn {
+    width: 3rem;
+    height: 3rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.custom_button1 .button_text {
+    text-align: right;
+}
